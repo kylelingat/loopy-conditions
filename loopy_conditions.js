@@ -6,17 +6,34 @@
  * @param  { Number } b
  * @return { Number }
  */
+function greaterNumber(a,b){
+  if (a > b){
+    return a;
+  } else {
+    return b;
+  }
+}
 
+greaterNumber();
 
 /**
  * Create a function called 'stringOfNumbers'.
  * This function will take in 1 parameter
  * Your task is to add all the numbers in between 0 and n
  * For example if the number is 10 than the function should return:
- * "0,1,2,3,4,5,6,7,8,9,10"
- * @param  { Number } n
+ * "0,1,2,3,4,5,6,7,8,9"
+ * @param  { Number }
  * @return { String }
  */
+ function stringOfNumbers(a){
+  var string = "";
+   for(var i = 0; i < a; i++){
+     string += i;
+   }
+   return string;
+ }
+
+ stringOfNumbers(10);
 
 
 /**
@@ -27,7 +44,8 @@
  * @param  { array } arr
  * @return { Number }
  */
-
+function sumOfArray(a){
+}
 
 /**
  * Create a function called 'getEvens'.
